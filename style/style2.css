@@ -1,0 +1,34 @@
+body{
+
+    background-image: url("https://i.pinimg.com/originals/49/06/6c/49066cd709a43dcc797134a62b6eb91f.jpg" );
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: rgb(40, 58, 58);
+    width: 100%;
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.lista a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 50px;
+}
+.menu .lista{
+    display: inline-block;
+
+}
+.lista a:hover{
+    background-color: tomato;
+     
+}
