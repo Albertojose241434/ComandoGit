@@ -35,3 +35,36 @@
 
 ##Consulta 30 estilos Css.
 
+- align-content	Especifica la alineación predeterminada de los elementos dentro del contenedor flexible cuando dichos elementos ocupan más de una linea.
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
