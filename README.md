@@ -26,17 +26,10 @@
 - link Se usa para enlazar recursos externos al documento HTML. El ejemplo más común son las hojas de estilos CSS.
 - meta Etiqueta usada para definir otros metadatos que no se pueden definir con una etiqueta HTML especifica. Por ejemplo para definir el autor del sitio, o la descripción del mismo.
 - style /style Etiquetas usadas para introducir código CSS en línea, es decir, en el propio documento HTML.
--
--
--
--
--
--
--
--
--
--
--
--
--
--
+- article /article Define contenido independiente de la web.
+- aside /aside Dentro de estas etiquetas suele alojarse el contenido adicional de la web. Suele ser contenido relacionado con la web pero de poca importancia
+- header /header Se usan para definir la cabecera la página web. Suele contener el logotipo, menú de navegación, etc.
+- footer /footer Usadas para definir el pie de página.
+- blockquote /blockquote Se usan para indicar que el contenido es texto citado.
+- pre /pre Usada para pegar texto manteniendo el pre formato propio del texto
+
