@@ -21,7 +21,7 @@ function ValidarData(nombre, correo, mensaje) {
         
         Swal.fire ({
             title: 'Error!',
-            Text: 'do you want to continue',
+            Text: 'do You want to continue',
             icon: 'error',
             confirmButtonText: 'Cool',
             iconColor:'purple'
@@ -34,6 +34,7 @@ function ValidarData(nombre, correo, mensaje) {
     localStorage.setItem('Correo',correo)
     localStorage.setItem('Mensaje',mensaje)
     ListarData()
+
     }
 
     function ListarData() {
