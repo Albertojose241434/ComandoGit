@@ -33,3 +33,5 @@
 - blockquote /blockquote Se usan para indicar que el contenido es texto citado.
 - pre /pre Usada para pegar texto manteniendo el pre formato propio del texto
 
+##Consulta 30 estilos Css.
+
