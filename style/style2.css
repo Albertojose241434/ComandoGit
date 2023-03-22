@@ -28,7 +28,46 @@ nav{
     display: inline-block;
 
 }
+.lista-r{
+    float: right;
+}
 .lista a:hover{
     background-color: tomato;
      
+}
+p{
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+#datos{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: left;
+    align-items: left;  
+}
+#fecha{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: left;
+    align-items: left;
+}
+#contenedor{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: left;
+    align-items: left;
+    
+}
+#body{
+    width: 700px;
+    height: 320px;
+    background-color: rgb(69, 171, 223);
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    
 }
