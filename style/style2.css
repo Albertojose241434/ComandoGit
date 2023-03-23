@@ -1,3 +1,4 @@
+
 body{
 
     background-image: url("https://i.pinimg.com/originals/49/06/6c/49066cd709a43dcc797134a62b6eb91f.jpg" );
@@ -7,9 +8,10 @@ body{
     background-repeat: no-repeat;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 nav{
-    background-color: rgb(40, 58, 58);
+    background-color: rgb(90, 90, 90);
     width: 100%;
 }
 .menu{
@@ -20,7 +22,7 @@ nav{
 }
 .lista a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     display: block;
     padding: 15px 50px;
 }
@@ -35,9 +37,10 @@ nav{
     background-color: tomato;
      
 }
-p{
+label{
     font-size: 22px;
     font-weight: 600;
+    color: rgb(61, 55, 55);
     
 }
 #datos{
@@ -46,6 +49,8 @@ p{
 
     justify-content: left;
     align-items: left;  
+    padding-left: 25px;
+    padding: 2%;
 }
 #fecha{
     display: flex;
@@ -53,6 +58,8 @@ p{
 
     justify-content: left;
     align-items: left;
+    padding-left: 25px;
+    padding: 2%;
 }
 #contenedor{
     display: flex;
@@ -60,14 +67,36 @@ p{
 
     justify-content: left;
     align-items: left;
+    padding-left: 25px;
+   padding: 2%;
     
 }
 #body{
-    width: 700px;
-    height: 320px;
-    background-color: rgb(69, 171, 223);
+    width: 650px;
+    height: 420px;
+    background-color: rgb(148, 204, 233);
     position: absolute;
     top: 25%;
     left: 35%;
     
+}
+input{
+    border: 0;
+    padding: 5px;
+    font-size: 18px;
+    margin: 0px;
+    
+}  
+button[type="submit"]{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-family: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+   
+}
+main{
+    text-align: center;
+   padding: 10%;
 }
